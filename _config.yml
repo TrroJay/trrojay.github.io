@@ -6,8 +6,6 @@ url: "https://trrojay.github.io"
 baseurl: "/thoughts"
 
 footer_only_homepage: true
-footer_url: "https://github.com/rhl-bthr"
-footer_text: "Theme by rhl-bthr"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -18,7 +16,6 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About"
+ - name: "Thoughts"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://rahulbothra.com/cv.pdf"
+
