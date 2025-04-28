@@ -2,18 +2,20 @@
 layout: default
 ---
 
+{% if page.tags %}
 <div class="page-subtitle">
     {% for tag in page.tags %}
-        {% if page.tags.first == tag %}
-            <b>[</b>
-        {% endif %}
-        <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-        {% if page.tags.last == tag %}
-            <b>]</b>
-        {% else %}
-            ,
-        {% endif %}
+    {% if forloop.first %}
+    <b>[</b>
+    {% endif %}
+    <a href="{{ site.baseurl }}/tags/#{{ tag | uri_escape }}" title="{{ tag }}">{{ tag }}</a>
+    {% if forloop.last %}
+    <b>]</b>
+    {% else %}
+    ,
+    {% endif %}
     {% endfor %}
 </div>
+{% endif %}
 
-{{content}}
+{{ content }}
