@@ -8,10 +8,7 @@ footer_only_homepage: true
 footer_url: "https://music.163.com/#/song?id=486194136"
 footer_text: "Thanks for tickling my brain!"
 
-url: "https://trrojay.github.io"
-baseurl: "" 
 
-footer_only_homepage: true
 profile_picture: "/assets/profile.png"
 favicon: "/assets/favicon.ico"
 
