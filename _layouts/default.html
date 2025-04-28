@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 {% include head.html %}
@@ -14,4 +14,31 @@
         </div>
         {% include footer.html %}
     </div>
+</body> -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+    <div class="container">
+        {% include navbar.html %}
+
+        {% if page.title %}
+        <div class="page-title">
+            {{ page.title | escape }}
+        </div>
+        {% endif %}
+
+        <div class="content">
+            {{ content | safe }}
+        </div>
+
+        {% include footer.html %}
+    </div>
 </body>
+
+</html>
