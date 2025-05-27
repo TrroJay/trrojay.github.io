@@ -23,3 +23,5 @@ navbar:
    link: "about"
  - name: "Thoughts"
    link: "thoughts"
+ - name: "Collections"
+   link: "collections"
