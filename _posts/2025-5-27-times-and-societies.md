@@ -15,7 +15,7 @@ categories:
 
 ## Basic law
 
-- 始终学习贯彻
+- 始终学习贯彻!
   - [习总书记在庆祝香港回归祖国 25 周年大会暨香港特别行政区第六届政府就职典礼上的讲话（全文）](https://china.huanqiu.com/article/48eq9e1GI3N)
 
 ## Hong kong
