@@ -1,3 +1,4 @@
 - This is a static website that TrroJay built for himself based on an old framework. It might just be his random thoughts.
 - There is a part in the repository that is not open to the public. The things stored there aren't really interesting. Most of them are my emotional outbursts and not-so-friendly thoughts.
 - Thanks to Mr. rhl-bthr, the original builder of this framework. You can find him among the contributors.
+- Enjoy your day here!
